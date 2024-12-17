@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".UploadActivity">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginBottom="100dp"
+        app:cardCornerRadius="30dp"
+        app:cardElevation="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center_horizontal"
+            android:padding="20dp"
+            android:background="@drawable/lavener_border">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Upload Data"
+                android:textSize="30sp"
+                android:textAlignment="center"
+                android:textColor="@color/lavender"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="190dp"
+                android:src="@drawable/uploadimg"
+                android:id="@+id/uploadImage"
+                android:layout_marginTop="10dp"
+                android:scaleType="fitXY"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:id="@+id/uploadTopic"
+                android:background="@drawable/lavener_border"
+                android:layout_marginTop="20dp"
+                android:padding="16dp"
+                android:hint="Tour name"
+                android:gravity="start|center_vertical"
+                android:textColor="@color/lavender"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:id="@+id/uploadDesc"
+                android:background="@drawable/lavener_border"
+                android:layout_marginTop="20dp"
+                android:padding="16dp"
+                android:hint="Tour description"
+                android:gravity="start|center_vertical"
+                android:textColor="@color/lavender"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:id="@+id/uploadCost"
+                android:background="@drawable/lavener_border"
+                android:layout_marginTop="20dp"
+                android:padding="16dp"
+                android:hint="Estimated Cost"
+                android:gravity="start|center_vertical"
+                android:textColor="@color/lavender"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:id="@+id/uploadLocation"
+                android:background="@drawable/lavener_border"
+                android:layout_marginTop="20dp"
+                android:padding="16dp"
+                android:hint="Tour Location"
+                android:gravity="start|center_vertical"
+                android:textColor="@color/lavender"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:id="@+id/uploadDate"
+                android:background="@drawable/lavener_border"
+                android:layout_marginTop="20dp"
+                android:padding="16dp"
+                android:hint="Tour Date"
+                android:gravity="start|center_vertical"
+                android:textColor="@color/lavender"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:id="@+id/uploadCont"
+                android:background="@drawable/lavener_border"
+                android:layout_marginTop="20dp"
+                android:padding="16dp"
+                android:hint="Tour Contact Info"
+                android:gravity="start|center_vertical"
+                android:textColor="@color/lavender"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:id="@+id/uploadReview"
+                android:background="@drawable/lavener_border"
+                android:layout_marginTop="20dp"
+                android:padding="16dp"
+                android:hint="Tour Review"
+                android:gravity="start|center_vertical"
+                android:textColor="@color/lavender"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:id="@+id/uploadGenre"
+                android:background="@drawable/lavener_border"
+                android:layout_marginTop="20dp"
+                android:padding="16dp"
+                android:hint="Tour Genre"
+                android:gravity="start|center_vertical"
+                android:textColor="@color/lavender"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:text="Save"
+                android:background="@drawable/round"
+                android:id="@+id/saveButton"
+                android:textSize="18sp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="70dp"
+                app:cornerRadius = "20dp"/>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</ScrollView>
